@@ -20,6 +20,7 @@ public class ChromeLaunchOnJenkins {
     @Test(priority=1)
     public void LaunchChromeBrowser() {
     this.driver = new ChromeDriver();
+    System.out.println("Test Chrome ");
   }
     
 }
