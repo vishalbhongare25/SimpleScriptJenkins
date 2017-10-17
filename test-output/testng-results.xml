@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1473" started-at="2017-10-17T07:05:58Z" finished-at="2017-10-17T07:05:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1473" started-at="2017-10-17T07:05:58Z" finished-at="2017-10-17T07:05:59Z">
+      <class name="Org.demo.ChromeLaunchOnJenkins">
+        <test-method status="PASS" signature="LaunchChromeBrowser()[pri:1, instance:Org.demo.ChromeLaunchOnJenkins@71318ec4]" name="LaunchChromeBrowser" duration-ms="1440" started-at="2017-10-17T12:35:58Z" finished-at="2017-10-17T12:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChromeBrowser -->
+      </class> <!-- Org.demo.ChromeLaunchOnJenkins -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
