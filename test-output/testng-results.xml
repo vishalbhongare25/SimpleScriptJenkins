@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1473" started-at="2017-10-17T07:05:58Z" finished-at="2017-10-17T07:05:59Z">
+  <suite name="Suite" duration-ms="3107" started-at="2017-10-18T07:21:32Z" finished-at="2017-10-18T07:21:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1473" started-at="2017-10-17T07:05:58Z" finished-at="2017-10-17T07:05:59Z">
+    <test name="Test" duration-ms="3107" started-at="2017-10-18T07:21:32Z" finished-at="2017-10-18T07:21:35Z">
       <class name="Org.demo.ChromeLaunchOnJenkins">
-        <test-method status="PASS" signature="LaunchChromeBrowser()[pri:1, instance:Org.demo.ChromeLaunchOnJenkins@71318ec4]" name="LaunchChromeBrowser" duration-ms="1440" started-at="2017-10-17T12:35:58Z" finished-at="2017-10-17T12:35:59Z">
+        <test-method status="PASS" signature="LaunchChromeBrowser()[pri:1, instance:Org.demo.ChromeLaunchOnJenkins@71318ec4]" name="LaunchChromeBrowser" duration-ms="3072" started-at="2017-10-18T12:51:32Z" finished-at="2017-10-18T12:51:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchChromeBrowser -->
