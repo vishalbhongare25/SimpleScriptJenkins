@@ -52,6 +52,9 @@
     <artifactId>extentreports</artifactId>
     <version>2.41.2</version>
 </dependency>
+
+
+
   </dependencies>
  <build>
  <plugins>
@@ -80,6 +83,19 @@
 </plugin>
  </plugins>
  </build>
+  
+  
+  <repositories>
+  <repository><id> myMavenRepo.read</id>
+  <url> https://mymavenrepo.com/repo/BpWVxneyxaWdXOoyWbPu/</url>
+  </repository>
+  </repositories>
+  <distributionManagement>
+  <repository>
+  <id> myMavenRepo.write </id>
+  <url> https://mymavenrepo.com/repo/s4v0Ov6RpR9g0LXVnZTw/</url>
+  </repository>
+  </distributionManagement>
   
  </project>
         
