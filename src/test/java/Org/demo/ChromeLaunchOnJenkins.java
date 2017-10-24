@@ -28,7 +28,7 @@ public class ChromeLaunchOnJenkins {
     @Test(priority=1)
      public void LaunchChromeBrowser() {
      this.driver = new ChromeDriver();
-     System.out.println(" hiiiiiiiiiiiii     welcome Test Chrome git ");
+    // System.out.println(" hiiiiiiiiiiiii     welcome Test Chrome git ");
   }
     @Test (priority=2)
     public void OpenLinkServify360DashbordUrl () throws InterruptedException{
