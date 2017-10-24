@@ -3,7 +3,11 @@ package Org.demo;
 import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
+
+
+
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,16 +19,16 @@ public class ChromeLaunchOnJenkins {
 		return driver;
 	}
 
-
+   
 	public void setDriver(WebDriver driver) {
 		this.driver = driver;
 	}
 
   
     @Test(priority=1)
-    public void LaunchChromeBrowser() {
-    this.driver = new ChromeDriver();
-    System.out.println(" hiiiiiiiiiiiii     welcome Test Chrome git ");
+     public void LaunchChromeBrowser() {
+     this.driver = new ChromeDriver();
+     System.out.println(" hiiiiiiiiiiiii     welcome Test Chrome git ");
   }
     @Test (priority=2)
     public void OpenLinkServify360DashbordUrl () throws InterruptedException{
@@ -55,9 +59,8 @@ public class ChromeLaunchOnJenkins {
      Assert.assertNotEquals(element, null);  
      System.out.println(" User logined Successfully 360Dashbordboard ");
      Thread.sleep(2000);   
-     
-     driver.quit();
+
   }
-	
-    
+    //@Test(priority = 4)
 }
+

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="71219" started-at="2017-10-22T05:52:41Z" finished-at="2017-10-22T05:53:53Z">
+  <suite name="Suite" duration-ms="18112" started-at="2017-10-24T03:42:43Z" finished-at="2017-10-24T03:43:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="71219" started-at="2017-10-22T05:52:41Z" finished-at="2017-10-22T05:53:53Z">
+    <test name="Test" duration-ms="18112" started-at="2017-10-24T03:42:43Z" finished-at="2017-10-24T03:43:01Z">
       <class name="Org.demo.ChromeLaunchOnJenkins">
-        <test-method status="PASS" signature="LaunchChromeBrowser()[pri:1, instance:Org.demo.ChromeLaunchOnJenkins@71318ec4]" name="LaunchChromeBrowser" duration-ms="1725" started-at="2017-10-22T11:22:41Z" finished-at="2017-10-22T11:22:43Z">
+        <test-method status="PASS" signature="LaunchChromeBrowser()[pri:1, instance:Org.demo.ChromeLaunchOnJenkins@71318ec4]" name="LaunchChromeBrowser" duration-ms="2273" started-at="2017-10-24T09:12:43Z" finished-at="2017-10-24T09:12:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchChromeBrowser -->
-        <test-method status="PASS" signature="OpenLinkServify360DashbordUrl()[pri:2, instance:Org.demo.ChromeLaunchOnJenkins@71318ec4]" name="OpenLinkServify360DashbordUrl" duration-ms="9925" started-at="2017-10-22T11:22:43Z" finished-at="2017-10-22T11:22:53Z">
+        <test-method status="PASS" signature="OpenLinkServify360DashbordUrl()[pri:2, instance:Org.demo.ChromeLaunchOnJenkins@71318ec4]" name="OpenLinkServify360DashbordUrl" duration-ms="3048" started-at="2017-10-24T09:12:46Z" finished-at="2017-10-24T09:12:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenLinkServify360DashbordUrl -->
-        <test-method status="PASS" signature="UserLoginServify360Dashbord()[pri:3, instance:Org.demo.ChromeLaunchOnJenkins@71318ec4]" name="UserLoginServify360Dashbord" duration-ms="59537" started-at="2017-10-22T11:22:53Z" finished-at="2017-10-22T11:23:53Z">
+        <test-method status="PASS" signature="UserLoginServify360Dashbord()[pri:3, instance:Org.demo.ChromeLaunchOnJenkins@71318ec4]" name="UserLoginServify360Dashbord" duration-ms="12756" started-at="2017-10-24T09:12:49Z" finished-at="2017-10-24T09:13:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserLoginServify360Dashbord -->
       </class> <!-- Org.demo.ChromeLaunchOnJenkins -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
