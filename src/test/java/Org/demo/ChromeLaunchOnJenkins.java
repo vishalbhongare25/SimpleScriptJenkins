@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class ChromeLaunchOnJenkins {
+   public class ChromeLaunchOnJenkins {
 	private  WebDriver driver;
     public WebDriver getDriver() {
 		return driver;
@@ -31,7 +31,7 @@ public class ChromeLaunchOnJenkins {
     // System.out.println(" hiiiiiiiiiiiii     welcome Test Chrome git ");
   }
     @Test (priority=2)
-    public void OpenLinkServify360DashbordUrl () throws InterruptedException{
+     public void OpenLinkServify360DashbordUrl () throws InterruptedException{
     	System.out.println("Open360Dashbordboard URL");
       driver.get("https://360.servify.in/");
       // driver.get("http://staging.servify.in:3000/");  
@@ -44,7 +44,7 @@ public class ChromeLaunchOnJenkins {
  }
      @Test	(priority=3)
      public void UserLoginServify360Dashbord () throws InterruptedException {
-    System.out.println("Start User login on 360Dashbordboard ");
+     System.out.println("Start User login on 360Dashbordboard ");
 	 driver.findElement(By.name("username")).sendKeys("vishal.b@servify.in");
      driver.findElement(By.name("next")).click();	
      Thread.sleep(2000);

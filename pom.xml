@@ -5,12 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <name> jenkins Scripte </name>
   <description> jenkins Scripte </description>
-   <properties> 
-  <suiteXmlFiles> src/main/resources/testng.xml</suiteXmlFiles>
-  </properties>
+    
   
-  
-
  <dependencies>
     <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
