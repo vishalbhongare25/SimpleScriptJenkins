@@ -1,17 +1,21 @@
 package Org.demo;
 
-import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 
 
-import org.openqa.selenium.By;
+
+
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
+import org.openqa.selenium.chrome.ChromeDriver;
+import java.io.IOException;
+
+
+
+import multiScreenShot.MultiScreenShot;
 
    public class ChromeLaunchOnJenkins {
 	private  WebDriver driver;
@@ -28,20 +32,37 @@ import org.openqa.selenium.chrome.ChromeDriver;
     @Test(priority=1)
      public void LaunchChromeBrowser() {
      this.driver = new ChromeDriver();
-    // System.out.println(" hiiiiiiiiiiiii     welcome Test Chrome git ");
+    // System.out.println(" hiiiiiiiiiiiii     welcome Test Chrome git jklj)
+
+     
+     
   }
     @Test (priority=2)
-     public void OpenLinkServify360DashbordUrl () throws InterruptedException{
+     public void OpenLinkServify360DashbordUrl () throws InterruptedException, IOException{
     	System.out.println("Open360Dashbordboard URL");
-      driver.get("https://360.servify.in/");
+        driver.get("https://360.servify.in/");
+        driver.manage().window().maximize();
       // driver.get("http://staging.servify.in:3000/");  
       //driver.get ("http://staging.servify.in:3002/");
       //driver.findElement(By.name("username")).sendKeys("karan.b@servify.in"); 
        String homePageUrl = driver.getCurrentUrl();
        AssertJUnit.assertEquals(homePageUrl, "https://360.servify.in/");
-       Thread.sleep(2000); 
+       Thread.sleep(000); 
        System.out.println("Opened Successfully 360Dashbordboard URL");
- }
+       
+       
+      MultiScreenShot mShot=new MultiScreenShot("/Users/vishal/Documents/workspace/DemoJenkins/ScreenShot/image.png", "ChromeLaunchOnJenkins");
+       
+       mShot.multiScreenShot(driver);
+       
+       
+    }
+ 
+      
+      
+       
+   }
+ /*
      @Test	(priority=3)
      public void UserLoginServify360Dashbord () throws InterruptedException {
      System.out.println("Start User login on 360Dashbordboard ");
@@ -58,9 +79,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
      //WebElement element =driver.findElement(By.id("filterDashboard"));
     // Assert.assertNotEquals(element, null);  
      System.out.println(" User logined Successfully 360Dashbordboard ");
-     Thread.sleep(2000);   
+     Thread.sleep(2000);  */
+     
+     
+     
 
-  }
+  
     //@Test(priority = 4)
-}
+
 
