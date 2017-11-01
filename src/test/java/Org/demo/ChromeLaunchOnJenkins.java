@@ -51,10 +51,7 @@ import multiScreenShot.MultiScreenShot;
        System.out.println("Opened Successfully 360Dashbordboard URL");
        
        
-      MultiScreenShot mShot=new MultiScreenShot("/Users/vishal/Documents/workspace/DemoJenkins/ScreenShot/image.png", "ChromeLaunchOnJenkins");
-       
-       mShot.multiScreenShot(driver);
-       
+    
        
     }
  
